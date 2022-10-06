@@ -41,6 +41,16 @@ console.log(`Random value between ${min} and ${max} is ${a}`);
 
 # Experience
 
+- I have around 6 months of commercial experience in Frontend Technology, especially JS,React and NextJs.
+
 # Education
 
+- **_Engineer,Poznan University of Technology_**
+  - **_Electrical Engineering,Electrical and IT equipment in industry and vehicles,_**
+- **_Master,Poznan University of Technology_**
+  - **_Electrical Engineering,Electrical and IT equipment in industry and vehicles_**
+
 # Languages
+
+- _Polish - native_
+- _English - B2_
