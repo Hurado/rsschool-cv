@@ -5,22 +5,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Arkadiusz Piaszczyński - Frontend Developer</title>
 </head>
 
 <body>
     <header class="header">
-        <h1 class="title">Arkadiusz Piaszczyński</h1>
-        <nav class="social">
-            <a href="https://github.com/Hurado"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/arkadiusz-piaszczy%C5%84ski-a2b81019b/"><i
-                    class="fa-brands fa-linkedin"></i></a>
-            <a href="piaszczynskiarkadiusz@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <div class="header-wrapper">
+            <h1 class="title">CV</h1>
+            <nav class="social">
+                <a href="https://github.com/Hurado"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arkadiusz-piaszczy%C5%84ski-a2b81019b/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="piaszczynskiarkadiusz@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="container">
+            <div class="container-child">
+                <section class="profile">
+                    <div class="profile-child">
+                        <div class="profile-photo">
+                            <img src="/src/IMG_0633-1080p.jpg" alt="profile image" class="me_photo">
+                        </div>
+                        <div class="profile-data">
+                            <h2>Arkadiusz Piaszczyński</h2>
+                            <h4>Front-End Developer</h4>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="abbreviation section">
+                    <div class="abb_child">
+                        <h2 class="title">Abbreviation</h2>
+                        <p>
+                            Nowadays, I’m working on <a class="link-to" href="https://hurado.github.io/rsschool-cv/cv"
+                                target="_blank">CV</a> project
+
+                            I’m
+                            currently learning Js and React for better understand and how to do things better. My goal
+                            is to have the knowledge
+                            to be able to apply for a junior position without fear. I think I have core abilities to
+                            work as Frontend Developer,
+                            because Im stubborn in pursuing my goal and I have patient even when everything goes wrong.
+                            Moreover, problem solving
+                            and fast learning are mine further advantages. I hope this course will give me the skills I
+                            need to get my dream job.
+                        </p>
+                    </div>
+                    <div class="contact">
+                        <ul class="contact-child">
+                            <li class="contact-item">Age</li>
+                            <li class="contact-item-content">28</li>
+                            <li class="contact-item">Email</li>
+                            <li class="contact-item-content">piaszczynskiarkadiusz@gmail.com/li>
+                            <li class="contact-item">Phone</li>
+                            <li class="contact-item-content">+48 xxx-xxx-xxx</li>
+                            <li class="contact-item">Address</li>
+                            <li class="contact-item-content">Poznań</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="skills section">
+                    <div>
+                        <h2 class="title">Skills</h2>
+                    </div>
+                    <ul class="skill">
+                        <li class="skill">
+                            <i class="fab fa-html5"></i>
+                            <a><span>HTML</span> </a>
+                        </li>
+                        <li class="skill">
+                            <i class="fab fa-css3-alt"></i>
+                            <a><span>CSS</span></a>
+                        </li>
+
+                        <li class="skill">
+                            <i class="fab fa-js-square"></i>
+                            <a><span>JavaScript</span> (Fundamentals, ES6+, arrow-function, async-await, props,
+                                promises)</a>
+                        </li>
+                        <li class="skill">
+                            <i class="fab fa-react"></i>
+                            <a><span>React JS, Redux</span> ReactJS (hooks, class and functional components,props )</a>
+                        </li>
+                        <li class="skill">
+                            <i class="fa-brands fa-vuejs"></i>
+                            <a><span>Vue</span> (basic)</a>
+                        </li>
+                        <li class="skill">
+                            <i class="fab fa-git-alt"></i>
+                            <a><span>Git (used in work and learning day by day)</span></a>
+                            <i class="fab fa-github"></i>
+                            <a><span id="Git1">GitHub</span></a>
+                            <i class="fa-brands fa-gitlab"></i>
+                            <a><span id="Git2">GitLab</span></a>
+                            <i class="fa-brands fa-bitbucket"></i>
+                            <a><span id="Git3">BitBucket</span></a>
+                        </li>
+
+                        <li class="skill">
+                            <i class="fa-solid fa-database"></i>
+                            <a><span>SQL</span>(basic knowledge)</a>
+                        </li>
+                        <li class="skill">
+                            <i class="fab fa-ubuntu"></i>
+                            <a><span>Linux(used for work)</span> (Ubuntu)</a>
+                            <i class="fab fa-windows"></i>
+                            <a><span>Windows(used for entertainment)</span>,</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="code section">
+                    <div class="code">
+                        <h2 class="title">Code example</h2>
+                        <pre>
+                                <code>
+                <span class="comment">// input from the user</span> 
+                <span style="color: violet;">const</span>  <span style="color:rgb(64, 224, 208)">min</span><span style="color:orange"> = </span> <span style="color:rgb(224, 224, 21)"> parseInt(prompt</span><span style="color: rgb(9, 179, 9);">("Enter a min value:"</span><span style="color:rgb(224, 224, 21)">)</span>;
+                <span style="color: violet;">const</span>  <span style = "color:turquoise">max</span><span style="color:orange"> = </span> <span style="color:rgb(224, 224, 21)"> parseInt(prompt</span><span
+                style="color: rgb(9, 179, 9);">("Enter a max value:"</span><span style="color:rgb(224, 224, 21)">)</span>;                    
+                <span class="comment">// generating a random number</span>
+                <span style="color: violet;">const</span><span style="color:rgb(64, 224, 208)"> a</span><span style="color:orange"> = </span> <span style="color:orange"> Math.</span><span style="color:rgb(224, 224, 21)">floor</span><span style="color:orange">(Math.</span><span style="color:rgb(224, 224, 21)">random() * (</span><span style="color:rgb(64, 224, 208)">max</span><span style="color:orange"> - </span><span style="color:rgb(64, 224, 208)">min</span><span style="color:orange"> + 1</span><span style="color:rgb(224, 224, 21)">)</span><span style="color:orange">) + </span><span style="color:rgb(64, 224, 208)">min</span>;
+
+                //display a random number
+                <span style="color:orange">console.</span><span style="color:rgb(224, 224, 21)">log(</span><span style="color: rgb(9, 179, 9);">`Random value between</span><span style="color: violet;"> $</span><span style="color:rgb(224, 224, 21)">{</span><span style="color:rgb(64, 224, 208)">min</span><span style="color:rgb(224, 224, 21)">}</span><span style="color: rgb(9, 179, 9);"> and</span> <span style="color: violet;"> $</span><span style="color:rgb(224, 224, 21)">{</span><span
+                style="color:rgb(64, 224, 208)">min</span><span style="color:rgb(224, 224, 21)">}</span>
+                <span style="color: rgb(9, 179, 9);"> is </span><span style="color: violet;"> $</span><span style="color:rgb(224, 224, 21)">{</span><span style="color:rgb(64, 224, 208)">a</span><span
+                style="color:rgb(224, 224, 21)">}</span><span style="color: rgb(9, 179, 9);">`</span><span style="color:rgb(224, 224, 21)">)</span>
+    </code>
+                              </pre>
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </main>
+
     <footer></footer>
 
 </body>
