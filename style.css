@@ -203,3 +203,29 @@ a {
 pre {
 	background-color: #fff;
 }
+
+.links_in_footer {
+	margin: 50px 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.links_in_footer img {
+	width: 150px;
+	background-color: grey;
+	border-radius: 3px;
+}
+.links_in_footer i {
+	font-size: 60px;
+}
+.fa-youtube-square {
+	color: grey;
+}
+.fa-github-alt {
+	color: #000;
+}
+
+.author {
+	text-align: right;
+	color: #081f5a;
+}
