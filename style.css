@@ -229,3 +229,19 @@ pre {
 	text-align: right;
 	color: #081f5a;
 }
+
+.violet {
+	color: violet;
+}
+.turquoise {
+	color: rgb(64, 224, 208);
+}
+.orange {
+	color: orange;
+}
+.yellow {
+	color: rgb(224, 224, 21);
+}
+.green {
+	color: rgb(9, 179, 9);
+}
