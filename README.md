@@ -4,4 +4,4 @@ MarkDown CV
 
 CV. HTML, CSS
 
-[CV]("https://hurado.github.io/rsschool-cv/)
+[CV](https://hurado.github.io/rsschool-cv/)
